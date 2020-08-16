@@ -7,11 +7,11 @@ class Mlc < Formula
 
   if OS.mac?
     url "https://github.com/d-tsuji/markdown-link-check/releases/download/v0.0.1/mlc_0.0.1_darwin_amd64.zip"
-    sha256 "65c3a9390460222615bdcf59da2a65d646de16aa922b85ba43449390fa31b97b"
+    sha256 "b24ce7c97e3d08c067f8b3f4ebd23ed8c1e63dfb804a781c56d5eee70ea742d5"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "https://github.com/d-tsuji/markdown-link-check/releases/download/v0.0.1/mlc_0.0.1_linux_amd64.zip"
-      sha256 "b2e90ba54f83aefb33badf90ab2ec4b72a08c1a049748a17ab76a835a75c889b"
+      sha256 "bc8b5c962661d6345f317a83e67c7b6bc59b0eaa40692e1c33fd1492690ecc75"
     end
   end
 
