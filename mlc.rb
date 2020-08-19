@@ -2,16 +2,16 @@
 class Mlc < Formula
   desc "Markdown Link Checker."
   homepage "https://github.com/d-tsuji/markdown-link-check"
-  version "0.0.4"
+  version "0.0.5"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/d-tsuji/markdown-link-check/releases/download/v0.0.4/mlc_0.0.4_darwin_amd64.zip"
-    sha256 "997d2feac0513723b90dac78055d06ddb6bbfb602632c3f25c0f71ba97aba9ab"
+    url "https://github.com/d-tsuji/markdown-link-check/releases/download/v0.0.5/mlc_0.0.5_darwin_amd64.zip"
+    sha256 "75ac3b5a4a4a47619bdba58025eaad5b046a3599a112a162aeb81d03c3f99d5b"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "https://github.com/d-tsuji/markdown-link-check/releases/download/v0.0.4/mlc_0.0.4_linux_amd64.zip"
-      sha256 "03bc3fe1f1d82485d95690da8b71bbd42a1d9ddd0c38a2843323fe36774e4a3d"
+      url "https://github.com/d-tsuji/markdown-link-check/releases/download/v0.0.5/mlc_0.0.5_linux_amd64.zip"
+      sha256 "080d7e977fd7d601e0ffc5272fd8d121779a3db613792e30357b215192cb9e3b"
     end
   end
 
